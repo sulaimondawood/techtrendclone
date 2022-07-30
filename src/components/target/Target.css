@@ -1,0 +1,55 @@
+.target {
+	margin-top: 140px;
+	background-color: var(--purple);
+	padding: 60px;
+	position: relative;
+}
+.target .target-title {
+	text-align: center;
+	font-size: 48px;
+	color: var(--white);
+}
+.target-row {
+	display: flex;
+	gap: 140px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 130px;
+	padding-bottom: 150px;
+}
+.target-row div img {
+	height: 160px;
+}
+.target-row p {
+	color: var(--white);
+	font-size: 24px;
+}
+.target-row div {
+	padding: 2rem;
+	border: 1px solid var(--lightWhite);
+	display: flex;
+	gap: 2rem;
+	flex-direction: column;
+
+	align-items: center;
+}
+.frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.frame2 {
+	position: absolute;
+	top: 52px;
+	left: 1220px;
+}
+/* .frame3 {
+	position: absolute;
+	top: 581px;
+	left: 80px;
+} */
+.frame4 {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

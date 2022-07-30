@@ -1,0 +1,38 @@
+.hero {
+	margin-top: 100px;
+}
+.hero-text {
+	font-size: 90px;
+	/* width: 1700px; */
+	text-align: center;
+}
+.hero .form {
+	display: flex;
+	gap: 23px;
+	justify-content: center;
+	margin-top: 50px;
+}
+.hero .form input {
+	background-color: transparent;
+	color: var(--lightWhite);
+	padding: 24px 48px;
+	border: 1px solid var(--lightWhite);
+	width: 600px;
+}
+.hero .form input::placeholder {
+	color: var(--lightWhite);
+}
+.hero .hero-search {
+	background-color: var(--purple);
+	color: var(--white);
+	padding: 20px 50px;
+	border-radius: 4px;
+}
+.view-category {
+	text-align: center;
+	margin-top: 35px;
+	display: flex;
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+}

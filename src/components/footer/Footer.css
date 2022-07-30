@@ -1,0 +1,39 @@
+.footer {
+	background-color: var(--purple);
+	padding: 80px;
+	margin-top: 100px;
+	position: relative;
+}
+.top {
+	gap: 120px;
+	display: flex;
+}
+.top > div {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+.top > div > .top-link {
+	color: var(--yellow);
+	font-weight: 600;
+}
+.top > div > .link-to {
+	font-size: 16px;
+	color: var(--white);
+}
+.footer .bottom {
+	display: flex;
+	margin-top: 118px;
+	align-items: flex-end;
+	justify-content: space-between;
+	color: var(--white);
+}
+.footer .bottom > div {
+	margin-bottom: 18px;
+}
+.footer img:nth-child(2) {
+	position: absolute;
+	top: 390px;
+	left: 740px;
+	/* transform: rotate(360deg); */
+}

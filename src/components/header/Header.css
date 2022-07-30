@@ -1,0 +1,31 @@
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 36px;
+}
+.nav-links {
+	display: flex;
+	gap: 64px;
+	font-size: 16px;
+}
+.nav-links li .a {
+	color: var(--black);
+}
+.nav-btn-container {
+	display: flex;
+	gap: 32px;
+	padding-left: 28px;
+}
+.login {
+	background-color: var(--lightPurple);
+	color: var(--purple);
+	padding: 16px 24px;
+	border-radius: 4px;
+}
+.sign-up {
+	padding: 16px 24px;
+	color: var(--white);
+	background-color: var(--purple);
+	border-radius: 4px;
+}

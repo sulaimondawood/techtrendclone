@@ -1,0 +1,19 @@
+.log-container {
+	background-color: var(--purple);
+	height: 100vh;
+	width: 100%;
+	padding-top: 80px;
+}
+.log-container .log-in {
+	background-color: var(--purple);
+	padding: 20px;
+	border-radius: 4px;
+}
+.log-container .in {
+	color: var(--white);
+}
+.fpass {
+	background-color: transparent;
+	border: none;
+	color: var(--purple);
+}

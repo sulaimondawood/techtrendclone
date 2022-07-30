@@ -1,38 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+:root {
+	--purple: #1f0231;
+	--white: #ffffff;
+	--lightPurple: #eee8f2;
+	--black: #0c0114;
+	--lightWhite: #bababa;
+	--veryLightWhite: #d8cde0;
+	--yellow: #fa9706;
+	--darkPurple: #0c0114;
+}
 .App {
-  text-align: center;
+	overflow-x: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 80px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+	text-decoration: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+	list-style-type: none;
 }
-
-.App-link {
-  color: #61dafb;
+.award-underline {
+	position: absolute;
+	background-color: var(--yellow);
+	width: 88px;
+	height: 4px;
+	/* top: 0; */
+	border-radius: 6px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.yellow {
+	color: var(--yellow);
 }

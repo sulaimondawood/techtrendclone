@@ -1,0 +1,28 @@
+.levels {
+	margin-top: 100px;
+}
+.levels-row {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+.levels-col {
+	flex: 1 1;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	border: 1px solid var(--lightWhite);
+	padding: 4em 1em;
+}
+.levels-col > img {
+	text-align: center;
+	height: 60px;
+}
+.levels-col > p {
+	text-align: center;
+}
+.levels-col > h1 {
+	text-align: center;
+	font-size: 36px;
+	color: var(--purple);
+}
